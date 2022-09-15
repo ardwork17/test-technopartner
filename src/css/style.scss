@@ -1,0 +1,278 @@
+//login
+.login{
+    background-color: rgb(235, 235, 235);
+    .container-login{
+        .row-login{
+            .col-login{
+                .title-login{
+                    .icon-login{
+                        width: 100%;
+                    }
+                }
+                .card-login{
+                    margin-bottom: 300px;
+                    border: none;
+                    background-color: transparent;
+                    .card-body{
+                        text-align: center;
+                        .input{
+                            .form-label{
+                                font-size: 14px;
+                                color: rgb(131, 131, 131);
+                            }
+                            .form-input{
+                                background-color: rgb(255, 255, 255);
+                                width: 50%;
+                                display: block;
+                                margin: 0 auto;
+                                border-radius: 10px;
+                                border: none;
+                                box-shadow: 1px 1px #afafaf
+                            }
+                        }
+                        .row-btn{
+                            .col-btn{
+                                display: block;
+                                margin: 0 auto;
+                                .button-login{
+                                    .btn-login{
+                                       border: 0.5px solid #dfdfdf ;
+                                       border-radius: 10px;
+                                       width: 70%;
+                                       background-color: rgb(255, 255, 255);
+                                        .title-login{
+                                            font-size: 12px;
+                                            font-weight: 800;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 580px) {
+    //login
+.login{
+    background-color: rgb(235, 235, 235);
+    .container-login{
+        padding-top: 100px;
+        .row-login{
+            .col-login{
+                .title-login{
+                    .icon-login{
+                        width: 70%;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                .card-login{
+                    margin-bottom: 300px;
+                    border: none;
+                    background-color: transparent;
+                    .card-body{
+                        text-align: center;
+                        .input{
+                            .form-label{
+                                font-size: 14px;
+                                color: rgb(131, 131, 131);
+                            }
+                            .form-input{
+                                background-color: rgb(255, 255, 255);
+                                width: 50%;
+                                display: block;
+                                margin: 0 auto;
+                                border-radius: 10px;
+                                border: none;
+                                box-shadow: 1px 1px #afafaf
+                            }
+                        }
+                        .row-btn{
+                            .col-btn{
+                                display: block;
+                                margin: 0 auto;
+                                .button-login{
+                                    .btn-login{
+                                       border: 0.5px solid #dfdfdf ;
+                                       border-radius: 10px;
+                                       width: 30%;
+                                       background-color: rgb(255, 255, 255);
+                                        .title-login{
+                                            font-size: 12px;
+                                            font-weight: 800;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dash{
+    .container-dash{
+        .row-dash{
+            .col-atas{
+                padding: 20px 30px;
+                height: 300px;
+                width: 100%;
+                background-image: url(../img/motif.png);
+                .card-atas{
+                    margin-top: 50px;
+                    height: 200px;
+                    border: 0.2px solid rgb(240, 240, 240);
+                    padding: 15px 20px;
+                    box-shadow:3px 2px #d4d4d4;
+                    .container-content{
+                        .row-content{
+                            .col-content{
+                                .greetings{
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                }
+                                .nama{
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                }
+                                .row-content-2{
+                                    margin-top: 20px;
+                                    margin-bottom: 20px;
+                                    .col-content-2{
+                                        .card-qr{
+                                            height: 80px;
+                                            width: 80px;
+                                            border: none;
+                                            box-shadow:0px 2px 0px 0px #afafaf;
+                                            border-radius: 50%;
+                                        }
+                                        .garis{
+                                            border:none;
+                                            margin-top: 20px;
+                                            border-left:2px dotted rgb(104, 104, 104);
+                                            height:70%;
+                                            width:50%;
+                                        }
+                                        .row-saldo{
+                                            padding-top: 20px;
+                                        
+                                            .col-saldo{
+                                                .title-saldo{
+                                                    font-size: 18px;
+                                                    float: left;
+                                                    opacity: 80%;
+                                                }
+                                                .title-nilai{
+                                                    font-size: 18px;
+                                                    float: right;
+                                                    font-weight: 700;
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .row-point{
+                                            .col-point{
+                                                .title-point{
+                                                    font-size: 18px;
+                                                    float: left;
+                                                    opacity: 70%;
+                                                }
+                                                .title-nilai{
+                                                    font-size: 18px;
+                                                    float: right;
+                                                    color: aqua;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                             
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menu{
+    .title{
+        .title-text{
+            text-align: center;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .card-menu{
+            border: none;
+           .tab{
+            border: none;
+            overflow-x: scroll;
+            white-space: nowrap;
+            background-color: #f1f1f1;
+            button{
+                background-color: inherit;
+                display: inline-block;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+           }
+           .content{
+            .page{
+                .title-menu{
+                    padding-left: 15px;
+                    font-size: 16px;
+                    background-color: #d4d4d4;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
+                .container-menu{
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    .row-menu{
+                        .col-menu{
+                            .row-menu-isi{
+                                .col-menu-isi{
+                                    .img-menu{
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                    .row-desk{
+                                        padding-top: 3px;
+                                        .col-menu-desk{
+                                           .name{
+                                            font-size: 14px;
+                                           } 
+                                           .desk{
+                                            font-size: 12px;
+                                            opacity: 80%;
+                                           }
+                                        }
+                                    
+                                    }
+                                    .harga{
+                                        padding-top: 12px;
+                                        font-size: 14px;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+}

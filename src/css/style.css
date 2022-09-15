@@ -1,0 +1,219 @@
+.login {
+  background-color: #ebebeb;
+}
+
+.login .container-login .row-login .col-login .title-login .icon-login {
+  width: 100%;
+}
+
+.login .container-login .row-login .col-login .card-login {
+  margin-bottom: 300px;
+  border: none;
+  background-color: transparent;
+}
+
+.login .container-login .row-login .col-login .card-login .card-body {
+  text-align: center;
+}
+
+.login .container-login .row-login .col-login .card-login .card-body .input .form-label {
+  font-size: 14px;
+  color: #838383;
+}
+
+.login .container-login .row-login .col-login .card-login .card-body .input .form-input {
+  background-color: white;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: 1px 1px #afafaf;
+          box-shadow: 1px 1px #afafaf;
+}
+
+.login .container-login .row-login .col-login .card-login .card-body .row-btn .col-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.login .container-login .row-login .col-login .card-login .card-body .row-btn .col-btn .button-login .btn-login {
+  border: 0.5px solid #dfdfdf;
+  border-radius: 10px;
+  width: 70%;
+  background-color: white;
+}
+
+.login .container-login .row-login .col-login .card-login .card-body .row-btn .col-btn .button-login .btn-login .title-login {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 240px) and (max-width: 580px) {
+  .login {
+    background-color: #ebebeb;
+  }
+  .login .container-login {
+    padding-top: 100px;
+  }
+  .login .container-login .row-login .col-login .title-login .icon-login {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .login .container-login .row-login .col-login .card-login {
+    margin-bottom: 300px;
+    border: none;
+    background-color: transparent;
+  }
+  .login .container-login .row-login .col-login .card-login .card-body {
+    text-align: center;
+  }
+  .login .container-login .row-login .col-login .card-login .card-body .input .form-label {
+    font-size: 14px;
+    color: #838383;
+  }
+  .login .container-login .row-login .col-login .card-login .card-body .input .form-input {
+    background-color: white;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 1px 1px #afafaf;
+            box-shadow: 1px 1px #afafaf;
+  }
+  .login .container-login .row-login .col-login .card-login .card-body .row-btn .col-btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .login .container-login .row-login .col-login .card-login .card-body .row-btn .col-btn .button-login .btn-login {
+    border: 0.5px solid #dfdfdf;
+    border-radius: 10px;
+    width: 30%;
+    background-color: white;
+  }
+  .login .container-login .row-login .col-login .card-login .card-body .row-btn .col-btn .button-login .btn-login .title-login {
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .dash .container-dash .row-dash .col-atas {
+    padding: 20px 30px;
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/motif.png);
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas {
+    margin-top: 50px;
+    height: 200px;
+    border: 0.2px solid #f0f0f0;
+    padding: 15px 20px;
+    -webkit-box-shadow: 3px 2px #d4d4d4;
+            box-shadow: 3px 2px #d4d4d4;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .greetings {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .nama {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .card-qr {
+    height: 80px;
+    width: 80px;
+    border: none;
+    -webkit-box-shadow: 0px 2px 0px 0px #afafaf;
+            box-shadow: 0px 2px 0px 0px #afafaf;
+    border-radius: 50%;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .garis {
+    border: none;
+    margin-top: 20px;
+    border-left: 2px dotted #686868;
+    height: 70%;
+    width: 50%;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .row-saldo {
+    padding-top: 20px;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .row-saldo .col-saldo .title-saldo {
+    font-size: 18px;
+    float: left;
+    opacity: 80%;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .row-saldo .col-saldo .title-nilai {
+    font-size: 18px;
+    float: right;
+    font-weight: 700;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .row-point .col-point .title-point {
+    font-size: 18px;
+    float: left;
+    opacity: 70%;
+  }
+  .dash .container-dash .row-dash .col-atas .card-atas .container-content .row-content .col-content .row-content-2 .col-content-2 .row-point .col-point .title-nilai {
+    font-size: 18px;
+    float: right;
+    color: aqua;
+  }
+  .menu .title .title-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .menu .title .card-menu {
+    border: none;
+  }
+  .menu .title .card-menu .tab {
+    border: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background-color: #f1f1f1;
+  }
+  .menu .title .card-menu .tab button {
+    background-color: inherit;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .menu .title .card-menu .content .page .title-menu {
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: #d4d4d4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .menu .title .card-menu .content .page .container-menu {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .menu .title .card-menu .content .page .container-menu .row-menu .col-menu .row-menu-isi .col-menu-isi .img-menu {
+    height: 100%;
+    width: 100%;
+  }
+  .menu .title .card-menu .content .page .container-menu .row-menu .col-menu .row-menu-isi .col-menu-isi .row-desk {
+    padding-top: 3px;
+  }
+  .menu .title .card-menu .content .page .container-menu .row-menu .col-menu .row-menu-isi .col-menu-isi .row-desk .col-menu-desk .name {
+    font-size: 14px;
+  }
+  .menu .title .card-menu .content .page .container-menu .row-menu .col-menu .row-menu-isi .col-menu-isi .row-desk .col-menu-desk .desk {
+    font-size: 12px;
+    opacity: 80%;
+  }
+  .menu .title .card-menu .content .page .container-menu .row-menu .col-menu .row-menu-isi .col-menu-isi .harga {
+    padding-top: 12px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
